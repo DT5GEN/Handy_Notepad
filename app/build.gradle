@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.handynotepad"
         minSdk 26
-        targetSdk 32
+        targetSdk 31
         versionCode 1
         versionName "1.0"
     }
@@ -23,6 +23,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    compileSdkVersion 31
 }
 
 dependencies {
